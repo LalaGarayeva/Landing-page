@@ -1,0 +1,156 @@
+/* Write some CSS below */
+body {
+    font-family: "Lato", sans-serif;
+    font-size:16px;
+    color: #092635;
+    background-color: #EEF5FF;
+    margin: 0;
+}
+
+h1 {
+    color: #17051e;
+    font-family: "Anta", sans-serif;
+}
+
+h2 {
+    color: #252B48;
+    font-family: "Anta", sans-serif; 
+}
+
+h3 {
+    color: #451952;
+    font-size:x-large;
+    font-style: oblique;
+    font-weight:bold;
+    font-family: "Anta", sans-serif;
+    margin-bottom: 35px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;  
+}
+
+p {
+    color: #1D2B53;
+    opacity: .8;
+    font-display:inherit;
+    font-feature-settings:"afrc";
+    font-style: italic;
+    margin-bottom: 25%;
+    vertical-align:sub;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    margin-block-start: 2%;
+}
+  
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #EEF5FF; 
+    padding: 10px 20px; 
+    font-size: 30px; 
+    text-align: center;
+  }
+
+.overlay-text p {
+    color:black; 
+    padding: 10px 20px; 
+    font-size: 30px; 
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-blue {
+    background-color: #9290C3;
+    color: azure;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.btn-blue:hover {
+    background-color: #BE3144;
+}
+
+.card-white {
+    display:grid;
+    justify-content:center;
+}
+
+.card-white image {
+    display:inline-block;
+    width: 30px;
+    height: 80%;
+    margin-top: 20px;
+    border: solid transparent;
+    border-color: rgba(0, 0, 0, .3);
+    display: inline-block;
+    position:absolute;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width:auto;
+    border: 1px solid #F7E987;
+    box-shadow: 1px 1px 3px rgba(21, 20, 20, 0.7);
+    border-top: 10px solid #331D2C;
+    min-height: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #F4EEE0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-list img {
+display: grid;
+grid-row: auto;
+align-items: center;
+justify-content: center;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 3px rgba(99, 76, 99, 0.9);
+  }
+
+.footer {
+    position:inherit;
+    width: 100%;
+    background: #252B48;
+    text-align: center;
+    z-index: 10;
+    padding: 20px 0;
+    margin-block-start: 3%;
+}
+
+.footer p2 {
+    color: #FFEFE8;
+    font-size:26px;
+    font-style:oblique;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
